@@ -8,5 +8,10 @@ app.secret_key = 'This is your secret key to utilize session in Flask'
 def index():
     return render_template('index.html')
 
+@app.route('/input', methods=("GET", "POST"))
+def input():
+    return render_template('input.html')
+
+
 if __name__ == '__main__':
     app.run(port=4455)

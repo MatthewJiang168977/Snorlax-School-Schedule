@@ -5,6 +5,7 @@
   margin: auto;
   position: relative;
   top: 250px;
+  left: 7px;
 }
 
 h1 {
@@ -13,7 +14,7 @@ h1 {
   font-style: normal;
   text-align: center;
   position: relative;
-  top: 250px;
+  top: 200px;
   color: white;
 }
 
@@ -25,4 +26,23 @@ body {
     rgba(87, 199, 133, 1) 50%,
     rgba(204, 237, 83, 1) 100%
   );
+}
+
+button { 
+  display: block;
+  margin: auto;
+  position: relative;
+  top: -170px; 
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  height: 35px;
+  width: 120px;
+  border: 3.5px solid #2596be;
+  background: white;
+  font-size: 20px;
+}
+a { 
+  text-decoration: None;
+  outline: None;  
 }
