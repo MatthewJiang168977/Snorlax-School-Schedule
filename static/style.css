@@ -46,3 +46,36 @@ a {
   text-decoration: None;
   outline: None;  
 }
+
+input[type="text"] { 
+  padding: 5px;
+  border: 3.5px solid black;
+}
+
+input[type="email"] { 
+  padding: 5px;
+  border: 3.5px solid black;
+}
+
+input[type="submit"] { 
+  padding: 5px;
+  border: 3.5px solid black;
+  width: 120px;
+  /* text-align: left; */
+  left: 1000px;  
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+label { 
+  display: inline-block;
+  /* float: left; */
+  /* clear: left; */
+  width: 100px; 
+  text-align: left;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
