@@ -15,7 +15,7 @@
 </html>
 
 <body>
-  <h1>Enter Your Name & Email!</h1>
+  <h1 class="enter">Enter Your Name & Email!</h1>
   <form>
     <p>
     <label>Name</label>
@@ -25,9 +25,25 @@
     <label>Email</label>
     <input type="email" name="Email Address"/>
     </p>
+    <p>
+    <label for="Date">Date:</label>
+    <input type="date" id="date" name="date" required>
+    </p>
+    <p>
+    <label for="Start-Time">Start Time:</label>
+    <input type="time" id="Start-Time"   required>
+    </p>
+    <p>
+    <label for="End-Time">End Time:</label>
+    <input type="time" id="end-Time" required>
+    </p>
+    <p>
+    <label for="location">Location:</label>
+    <input type="text" id="location" name="location">
+    </p>
     <!-- <button type="submit">Submit</button> -->
     <p>
-    <input type="submit">
+    <input type="submit" value="Add to Schedule">
     </p>
   </form>
 </body>

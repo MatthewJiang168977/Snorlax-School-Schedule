@@ -10,6 +10,7 @@ def index():
 
 @app.route('/input', methods=("GET", "POST"))
 def input():
+    
     return render_template('input.html')
 
 
