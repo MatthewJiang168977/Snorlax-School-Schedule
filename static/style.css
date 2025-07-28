@@ -51,11 +51,17 @@ input[type="text"] {
   padding: 5px;
   border: 3.5px solid black;
   position: relative;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 input[type="email"] { 
   padding: 5px;
   border: 3.5px solid black;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 input[type="time"] { 
