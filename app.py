@@ -94,7 +94,7 @@ def reset_email_flags():
         db.session.commit()
 
 scheduler = BackgroundScheduler()
-scheduler.add_job(func=check_reminder, trigger="interval", seconds=10)
+scheduler.add_job(func=check_reminder, trigger="interval", minutes=1)
 scheduler.add_job(func=reset_email_flags, trigger="cron", hour=0, minute=0, timezone="America/Phoenix")
 scheduler.start()
 
